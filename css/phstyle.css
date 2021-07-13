@@ -1,0 +1,60 @@
+
+.phone-input, .phone-enter-arrow {
+    color: #0033ff;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+  }
+ 
+  
+  .intl-tel-input, .phone-input {
+    width: 100%;
+  }
+  
+  .phone-input.invalid {
+    border-color: red;
+  }
+  
+  .phone-input.valid {
+    border-color: #0033ff;
+  }
+  
+  .phone-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .phone-enter-arrow {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+  }
+  
+  .phone-enter-arrow:hover {
+    background: none;
+  }
+  
+  .intl-tel-input .country-list {
+    font-size: 10px;
+  }
+  
+  .intl-tel-input .selected-flag .iti-arrow {
+    border-top-color: #0033ff;
+  }
+  
+  .phone-error, .phone-success {
+    margin-top: 40px;
+    font-size: 10px;
+    text-align: center;
+  }
+  
+  .phone-error {
+    color: red;
+  }
+  
+  .phone-success {
+    color: #0033ff;
+  }

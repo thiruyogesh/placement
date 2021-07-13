@@ -1,0 +1,57 @@
+
+div.wrap {
+  width: 150px;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+div.wrap div {
+  position: relative;
+  margin: 50px 0;
+}
+
+label {
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  margin: 10px;
+  padding: 0 5px;
+  background-color: white;
+  -webkit-transition: top .2s ease-in-out,  font-size .2s ease-in-out;
+  transition: top .2s ease-in-out,  font-size .2s ease-in-out;
+}
+
+.active {
+  top: -25px;
+  font-size: 20px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 10px;
+  background-color: white;
+  color: white;
+} 
+
+input[type=text]:focus {
+  outline: border;
+}
+
+input[type=password] {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid black;
+  font-size: 20px;
+  background-color: white;
+  color: white;
+} 
+
+input[type=password]:focus {
+  outline: border;
+}
